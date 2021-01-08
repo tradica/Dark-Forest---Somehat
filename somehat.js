@@ -6,10 +6,10 @@ class Plugin {
 
     this.img.addEventListener('load', () => {
       this.loaded = true;
-      div.innerText = 'The Hat';
+      div.innerText = 'You have some hat';
     });
 
-    this.img.src = 'https://raw.githubusercontent.com/tradica/hackphx-taco/master/dfSmb.png';
+    this.img.src = 'https://raw.githubusercontent.com/tradica/Dark-Forest---Somehat/main/somehat.png';
 
     this.img.style.display = 'none';
     div.style.width = '140px';
